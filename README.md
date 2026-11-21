@@ -69,6 +69,42 @@ Evaluate how model performance changes when customer messages are paraphrased wh
 - experiments/wulver/ - HPC batch scripts and logs
 - demo/ - Interactive model demonstration
 
+
+## How to Run
+
+### Environment Setup
+
+Python 3.10 or later is recommended.
+
+Create a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Install the project dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Model Training and Evaluation
+
+Instructions for training the baseline, fine-tuning the 
+dual-head DistilBERT model, and evaluating performance 
+will be added during Milestone 3.
+
+### Demo
+
+A self-contained demonstration notebook will be available 
+in the demo/ directory.
+
+### Wulver HPC
+
+Batch job scripts, configurations, and experiment logs 
+will be available in the experiments/wulver/ directory.
+
 ## Resources
 
 - [DistilBERT Model](https://huggingface.co/distilbert/distilbert-base-uncased)
